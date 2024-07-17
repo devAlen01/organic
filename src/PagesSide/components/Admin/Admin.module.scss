@@ -1,0 +1,64 @@
+.Admin {
+  .content {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    form {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 30px;
+      .inputs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        input {
+          outline: none;
+          font-size: 18px;
+          padding: 10px;
+          border: 1px solid transparent;
+          border-radius: 12px;
+          height: 50px;
+          width: 550px;
+          background-color: bisque;
+          &:focus {
+            border: 1px solid rgb(170, 229, 81);
+            transition: 0.3s;
+          }
+        }
+        select {
+          height: 50px;
+          width: 550px;
+          border: 1px solid transparent;
+          border-radius: 12px;
+          background-color: bisque;
+          outline: none;
+          option {
+            padding: 10px;
+            font-size: 18px;
+
+            &:focus {
+              border: 1px solid rgb(170, 229, 81);
+              transition: 0.3s;
+            }
+          }
+        }
+        .btn {
+          width: 200px;
+          height: 50px;
+          border-radius: 12px;
+          color: white;
+          background-color: rgb(39, 76, 91);
+          &:hover {
+            background-color: rgb(25, 55, 67);
+          }
+        }
+      }
+    }
+  }
+}

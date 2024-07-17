@@ -1,0 +1,82 @@
+.Footer {
+  padding: 60px 0;
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    h3 {
+      color: rgb(39, 76, 91);
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 35px;
+      margin-bottom: 20px;
+    }
+
+    .contacts {
+      .adress {
+        h3 {
+          text-align: right;
+        }
+        .email {
+          text-align: right;
+          h4 {
+            padding: 10px 0;
+            color: rgb(82, 92, 96);
+            font-size: 18px;
+            font-weight: 600;
+          }
+          span {
+            width: 100px;
+            color: rgb(82, 92, 96);
+            font-size: 18px;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+    .organic {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      gap: 30px;
+      img {
+        width: 240px;
+      }
+      p {
+        text-align: center;
+        width: 600px;
+      }
+      .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        span {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 60px;
+          height: 60px;
+          background: rgb(224, 236, 230);
+          border-radius: 50%;
+          color: #274c5b;
+          font-size: 33px;
+        }
+      }
+    }
+    .utility_pages {
+      h3 {
+        text-align: left;
+      }
+      h4 {
+        padding: 10px 0;
+        color: rgb(82, 92, 96);
+        font-size: 18px;
+        font-weight: 400;
+        text-align: left;
+      }
+    }
+  }
+}

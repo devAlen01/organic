@@ -1,0 +1,35 @@
+.HeroSection {
+  background: rgb(227, 241, 233);
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  color: rgb(39, 76, 91);
+  background: rgb(227, 241, 233);
+
+  .info {
+    h2 {
+      color: rgb(126, 182, 147);
+      font-family: Yellowtail;
+      font-size: 36px;
+      font-weight: 500;
+    }
+    h1 {
+      font-size: 60px;
+      width: 510px;
+      font-size: 60px;
+      font-weight: 800;
+      line-height: 82px;
+      margin-bottom: 20px;
+    }
+    button {
+      font-size: 18px;
+      color: rgb(39, 76, 91);
+      font-weight: 400;
+      width: 180px;
+      height: 50px;
+      border-radius: 12px;
+      background: rgb(239, 211, 114);
+    }
+  }
+}

@@ -1,0 +1,103 @@
+.DetailPage {
+  margin-top: 20px;
+  .banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+    h1 {
+      color: #274c5b;
+      font-size: 47px;
+    }
+  }
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1337px;
+    height: 563px;
+    padding: 12px;
+    .image {
+      .type {
+        margin: 20px 0;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 15px;
+        font-weight: 600;
+        border-radius: 8px;
+        background: rgb(39, 76, 91);
+        width: 96px;
+        height: 31px;
+        padding: 5px 12px 6px 12px;
+      }
+      img {
+        width: 370px;
+        border-radius: 12px;
+        margin: 12px;
+      }
+    }
+
+    .info {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      gap: 24px;
+      .rating {
+        display: flex;
+        align-items: center;
+      }
+      h1 {
+        color: rgb(39, 76, 91);
+        font-size: 40px;
+        font-weight: 600;
+        text-align: left;
+      }
+      h4 {
+        color: rgb(39, 76, 91);
+        font-size: 25px;
+        font-weight: 700;
+      }
+      p {
+        color: rgb(82, 92, 96);
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 165.4%;
+      }
+    }
+    .btn_add {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      h4 {
+        color: rgb(39, 76, 91);
+        font-size: 20px;
+        font-weight: 700;
+      }
+      input {
+        width: 134px;
+        height: 80px;
+        border: 2px solid rgb(39, 76, 91);
+        border-radius: 16px;
+        background: rgb(255, 255, 255);
+        text-align: center;
+        color: rgb(39, 76, 91);
+        font-weight: 700;
+        font-size: 20px;
+      }
+      input[type="number"]::-webkit-inner-spin-button,
+      input[type="number"]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+      button {
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-weight: 700;
+        width: 213px;
+        height: 80px;
+        border-radius: 16px;
+        background: rgb(39, 76, 91);
+      }
+    }
+  }
+}
